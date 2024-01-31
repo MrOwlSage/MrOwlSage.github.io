@@ -16,7 +16,7 @@ timezone:
 
 title: Mr.Owl # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Stay Hungry, Stay Foolish # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -73,7 +73,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/favicons/owl.png"
+avatar: "/assets/img/favicons/owl.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
