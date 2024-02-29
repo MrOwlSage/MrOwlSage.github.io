@@ -1,6 +1,6 @@
 ---
 title: iOS底层之isKindOfClass和isMemberOfClass
-author: 赵英如
+author: Mr.Owl
 date: 2024-01-10 00:00:00 +0800
 categories: [iOS, iOS底层原理]
 tags: [iOS, isKindOfClass, isMemberOfClass]
