@@ -117,16 +117,18 @@ Class object_getClass(id obj)
 
 ![isa](../assets/img/isKindOfClass _isMemberOfClass/isa.png)
 
-<center><!--图片来自网络--></center>
+- instance的isa指向class
 
-1、isa指针指向
-instance(实例对象)的isa指向class(类对象）；
-class(类对象)的isa指向meta-class(元类对象）；
-meta-class(元类对象)的isa指向Root meta-class(根元类对象)；
+- class的isa指向meta-class
 
-2、superclass指针指向
-class(类对象)的 superclass 指向父类的class(父类的类对象);如果没有父类，则指向nil；
-meta-class(元类对象)的 superclass 指向父类的meta-class(父类的元类对象);根元类(meta-class)的 superclass指向根类的class;
+- meta-class的isa指向基类的meta-class
+
+- class的superclass指向父类的class；如果没有父类，superclass指针为nil
+
+- meta-class的superclass指向父类的meta-class；基类的meta-class的superclass指向基类的class
+- instance调用对象方法的轨迹：isa找到class，方法不存在，就通过superclass找父类
+
+- class调用类方法的轨迹：isa找meta-class，方法不存在，就通过superclass找父类
 
 通过上述源码的分析同时结合类的继承与isa的指向图，相信再去看开篇的测试题应该就有了比较清晰的结果了。结果如下：
 
