@@ -2,8 +2,8 @@
 title: 猜你没有详细总结过的Flutter Widget生命周期
 author: Mr.Owl
 date: 2020-03-21 00:00:00 +0800
-categories: [flutter]
-tags: [flutter, widget]
+categories: [Flutter]
+tags: [Flutter, widget]
 ---
 
 ## 前言
